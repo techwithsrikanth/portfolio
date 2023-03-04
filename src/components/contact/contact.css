@@ -7,7 +7,7 @@
 .contact__container{
     width: 90%;
     display: grid;
-    grid-template-columns: 30% 40%;
+    grid-template-columns: 40% 40%;
     gap: 20%;
     padding-left: 180px;
     position: relative;
@@ -27,6 +27,8 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    position: relative;
+    right: 160px;
 
 }
 
