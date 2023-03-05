@@ -72,7 +72,7 @@ input, textarea{
 
     .contact{
         position: relative;
-        top: 1500px;
+        bottom: 700px;
     }
     .container.contact__container{
         grid-template-columns: 1fr;
@@ -80,13 +80,24 @@ input, textarea{
         position: relative;
         right: 80px;
     }
+    .contact__option{
+        width: 80%;
+        position: relative;
+        left: 100px;
+    }
+
+    .contact__details{
+        width: 80%;
+        position: relative;
+        left: 100px;
+    }
 }
 
 
 @media screen and (max-width:425px){
     .contact{
         position: relative;
-        top: 3450px;
+        top: 3350px;
         left: 100px;
     }
     .container.contact__container{
@@ -99,13 +110,13 @@ input, textarea{
     .contact__option{
         width: 50%;
         position: relative;
-        left: 250px;
+        left: 270px;
     }
 
     .contact__details{
         width: 50%;
         position: relative;
-        left: 250px;
+        left: 270px;
     }
 }
 
