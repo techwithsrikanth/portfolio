@@ -15,7 +15,7 @@
 
     .experiences{
         position: relative;
-        top: 600px;
+        bottom: 730px;
     }
     .container.experience__container{
         grid-template-columns: 1fr 1fr;
@@ -33,7 +33,7 @@
     .experience__extra{
         position: relative;
         right: 100px;
-        bottom: 80px;
+        bottom: 590px;
     }
 }
 
@@ -62,7 +62,7 @@
     .experiences{
         
         position: relative;
-        top: 1400px;
+        top: 1350px;
         left: 110px;
     
     }
