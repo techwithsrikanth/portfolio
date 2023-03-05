@@ -55,9 +55,14 @@ header{
         position: relative;
         right: 30px;
     }
+.header_socials,
+.scroll_down{
+        display: none;
+    }
+    }    
     
     
-}
+
 @media screen and (max-width: 425px){
     header{
         height: 100vh;
