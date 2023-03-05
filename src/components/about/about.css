@@ -139,7 +139,7 @@
     
     .about{
         position: relative;
-        bottom: 280px;
+        bottom: 30px;
         left: 100px;
     }
     .about__content{
@@ -190,7 +190,7 @@
 
     .about__content a{
         position: relative;
-        right: 600px;
+        left: 20px;
         
     }
 
@@ -201,27 +201,5 @@
     }
 
 
-}
-
-@media screen and (max-width: 600px){
-
-    .about{
-        position: relative;
-        top: 100px;
-    }
-    .about__content{
-        position: relative;
-        right: 30px;
-    }
-
-    .about__me-img{
-        position: relative;
-        right: 150px;
-    }
-
-    .btn-primary1{
-        position: relative;
-        left: 10px;
-    }
 }
 
