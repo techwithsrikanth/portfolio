@@ -7,7 +7,7 @@
 .about__container{
     display: grid;
     grid-template-columns: 38% 58%;
-    gap: 12%;
+    gap: 10%;
 }
 
 .about__me{
@@ -38,10 +38,10 @@
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 1.5rem;
+    gap: 1.3rem;
     margin-right: 50px;
     position: relative;
-    right: 20px;
+    right: 30px;
 }
 
 .about_card{
@@ -74,6 +74,7 @@
 }
 
 .about__content p{
+    width: 92%;
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
