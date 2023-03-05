@@ -7,7 +7,8 @@
 @media screen and (max-width: 1024px){
     .footer{
         position: relative;
-        top: 2060px;
+        bottom: 600px;
+        left: 30px;
     }
     
     }
@@ -15,8 +16,8 @@
 @media screen and (max-width: 425px){
     .footer{
         position: relative;
-        top: 3800px;
-        left: 60px;
+        top: 3700px;
+        left: 110px;
     }
         
     }
