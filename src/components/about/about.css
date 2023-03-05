@@ -6,7 +6,7 @@
 
 .about__container{
     display: grid;
-    grid-template-columns: 30% 55%;
+    grid-template-columns: 40% 55%;
     gap: 12%;
 }
 
@@ -118,6 +118,7 @@
         position: relative;
         left: 0px;
         bottom: 30px;
+        
     }
     .about__me{
         width: 100%;
@@ -125,8 +126,8 @@
     }
     .about__me-img{
         position: relative;
-        right: 400px;
-        bottom: 230px;
+        right: 450px;
+        bottom: 250px;
     }
 
     .about__cards{
@@ -140,6 +141,8 @@
 
     .about__content{
         text-align: center;
+        width: 50%;
+        left: 280px;
 
     }
 
@@ -147,12 +150,15 @@
         margin: 1.5rem 0;
         position: relative;
         bottom: 300px;
+        left: 50px;
+        
 
     }
 
-    .btn-primary1{
+    .btn.btn-primary1{
         position: relative;
         bottom: 260px;
+        
     }
 
 
