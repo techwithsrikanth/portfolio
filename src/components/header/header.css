@@ -55,6 +55,8 @@ header{
         position: relative;
         right: 30px;
     }
+    
+    
 }
 @media screen and (max-width: 425px){
     header{
