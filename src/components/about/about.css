@@ -6,7 +6,7 @@
 
 .about__container{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 38% 58%;
     gap: 12%;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .about__cards{
-    width: 90%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1.5rem;
