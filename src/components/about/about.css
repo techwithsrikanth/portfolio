@@ -6,8 +6,8 @@
 
 .about__container{
     display: grid;
-    grid-template-columns: 38% 58%;
-    gap: 10%;
+    grid-template-columns: 40% 60%;
+    gap: 12%;
 }
 
 .about__me{
@@ -25,7 +25,7 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-    margin-left: 120px;
+    margin-left: 100px;
     position: relative;
     right: 80px;
 }
@@ -35,13 +35,13 @@
 }
 
 .about__cards{
-    width: 80%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 1.3rem;
+    gap: 1.5rem;
     margin-right: 50px;
     position: relative;
-    right: 30px;
+    right: 20px;
 }
 
 .about_card{
@@ -74,7 +74,6 @@
 }
 
 .about__content p{
-    width: 85%;
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
@@ -95,11 +94,15 @@
         margin: 2rem auto 4 rem;
         position: relative;
         left: 180px;
+        
     }
 
     .about__me-img{
+            margin-right: 360px;
             position: relative;
-            left: 20px;
+            right: 1px;
+            bottom: 250px;
+            
         
 
     }
@@ -138,7 +141,7 @@
     .about__content{
         position: relative;
         left: 0px;
-        top: 420px;
+        top: 230px;
         
     }
     .about__me{
@@ -150,9 +153,11 @@
     
     }
     .about__me-img{
+        height: 400px;
+        width: 400px;
         position: relative;
-        right: 450px;
-        bottom: 250px;
+        right: 100px;
+       
     }
 
     .about__cards{
@@ -160,7 +165,7 @@
         grid-template-columns: 1fr;
         gap: 1rem;
         position: relative;
-        left: 60px;
+        left: 30px;
         bottom: 500px;
     }
 
@@ -168,6 +173,7 @@
         text-align: center;
         width: 50%;
         left: 280px;
+        
 
     }
 
@@ -180,7 +186,7 @@
 
     .about__content a{
         position: relative;
-        right: 100px;
+        right: 600px;
         
     }
 
