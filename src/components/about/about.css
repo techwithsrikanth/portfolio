@@ -6,7 +6,7 @@
 
 .about__container{
     display: grid;
-    grid-template-columns: 40% 55%;
+    grid-template-columns: 40% 60%;
     gap: 12%;
 }
 
@@ -26,6 +26,8 @@
     transform: rotate(10deg);
     transition: var(--transition);
     margin-left: 120px;
+    position: relative;
+    right: 80px;
 }
 
 .about__me-img:hover{
@@ -33,17 +35,20 @@
 }
 
 .about__cards{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1.5rem;
     margin-right: 50px;
+    position: relative;
+    right: 20px;
 }
 
 .about_card{
     background: #4b4b8f;
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.2rem;
     text-align: center;
 }
 
@@ -74,9 +79,14 @@
 }
 
 @media screen and (max-width: 1024px){
+    .about{
+        position: relative;
+        bottom: 800px;
+    }
     .about__container{
         height: 200px;
         grid-template-columns: 1fr; 
+    
     }
 
     .about__me{
@@ -96,16 +106,26 @@
     .about__content p{
         margin: 1rem 0 1.5rem   ;
         padding: 20px;
+        width: 80%;
+        position: relative;
+        left: 100px;
     }
 
     .about__cards{
-        width: 100%;
+        width: 80%;
+        position: relative;
+        left: 110px;
     }
 
-    .btn-primary{
+    .btn-primary1{
         position: relative;
-        left: 20px;
+        left: 100px;
     }
+    .about__content a{
+        position: relative;
+        left: 120px;
+    }
+
 }
 
 @media screen and (max-width: 425px){
@@ -117,12 +137,16 @@
     .about__content{
         position: relative;
         left: 0px;
-        bottom: 30px;
+        top: 420px;
         
     }
     .about__me{
-        width: 100%;
+        width: 60%;
         margin: 0 auto 3rem;
+        position: relative;
+        top: 240px;
+        right: 120px;
+    
     }
     .about__me-img{
         position: relative;
@@ -149,10 +173,14 @@
     .about__content p{
         margin: 1.5rem 0;
         position: relative;
-        bottom: 300px;
-        left: 50px;
-        
+        bottom: 380px;
+        left: 100px;
+    }
 
+    .about__content a{
+        position: relative;
+        right: 100px;
+        
     }
 
     .btn.btn-primary1{
