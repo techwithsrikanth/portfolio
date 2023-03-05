@@ -97,7 +97,7 @@ input, textarea{
 @media screen and (max-width:425px){
     .contact{
         position: relative;
-        top: 3350px;
+        top: 2980px;
         left: 100px;
     }
     .container.contact__container{
