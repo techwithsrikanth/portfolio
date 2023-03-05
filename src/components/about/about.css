@@ -11,7 +11,7 @@
 }
 
 .about__me{
-    width: 90%;
+    width: 85%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background-color: linear-gradient(45deg, transparent, var(--color-primary), transparent);
@@ -35,7 +35,7 @@
 }
 
 .about__cards{
-    width: 90%;
+    width: 85%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1.5rem;
@@ -74,6 +74,7 @@
 }
 
 .about__content p{
+    width: 85%;
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
