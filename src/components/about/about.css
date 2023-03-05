@@ -35,7 +35,7 @@
 }
 
 .about__cards{
-    width: 100%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1.5rem;
@@ -112,7 +112,7 @@
         padding: 20px;
         width: 80%;
         position: relative;
-        left: 100px;
+        left: 80px;
     }
 
     .about__cards{
@@ -127,7 +127,7 @@
     }
     .about__content a{
         position: relative;
-        left: 120px;
+        left: 90px;
     }
 
 }
