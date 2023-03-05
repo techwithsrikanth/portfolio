@@ -45,7 +45,7 @@
 @media screen and (max-width: 1024px){
     .portfolio{
         position: relative;
-        top: 1080px;
+        bottom: 690px;
         left: 50px;
 
     }
@@ -60,7 +60,7 @@
 @media screen and (max-width: 425px){
     .portfolio{
         position: relative;
-        top: 1900px;
+        top: 1850px;
         left: 100px;
 
     }
