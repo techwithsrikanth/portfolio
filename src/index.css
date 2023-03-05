@@ -41,7 +41,6 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    width: 1250px;
 }
 
 /**--------------General stuffs-----------------**/
