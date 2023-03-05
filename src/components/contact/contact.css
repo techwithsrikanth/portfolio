@@ -15,14 +15,17 @@
 }
 
 .contact__options{
+
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1.2rem;    
+    
 }
 
 .contact__option{
+    width: 100%;
     background: var(--color-bg-variant);
-    padding: 1.2rem;
+    padding: 1.5rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
@@ -91,6 +94,18 @@ input, textarea{
         position: relative;
         right: 80px;
         
+    }
+
+    .contact__option{
+        width: 50%;
+        position: relative;
+        left: 250px;
+    }
+
+    .contact__details{
+        width: 50%;
+        position: relative;
+        left: 250px;
     }
 }
 
