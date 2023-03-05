@@ -12,7 +12,7 @@ const about = () => {
     <section id = 'about' className='about'>
        <h5>Get to Know</h5>
        <h2>About me</h2>
-       <div className='about__container'>
+       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-img'>
             <img src={dp6} alt='About Image'/>
@@ -39,7 +39,6 @@ const about = () => {
               <small>10+ Completed </small>
             </article>
           </div>
-
           <p>Hello! Myself Srikanthan pursuing my B.Tech at IIIT Kancheepuram, Chennai which is one of the premium colleges of the country.
              <br/><br/>I am a motivated and an enthusiastic guy who loves to talk about startups and problem solving stuffs. I love to talking with new people and share some great ideas, do ping me up if you're interested too :) </p>
           <a href='#contact' className='btn btn-primary1'>Let's Talk</a>
